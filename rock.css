@@ -41,3 +41,10 @@ button { -webkit-tap-highlight-color: transparent; }
     padding: 8px 15px;
     cursor: pointer;
 }
+
+@media (max-width: 576px) {
+    .move-btn{
+        width: 100px;
+        height: 100px;
+    }
+}
